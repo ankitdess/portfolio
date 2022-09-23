@@ -1,0 +1,42 @@
+nav{
+    height: 10vh;
+}
+#menu{
+    position: relative;
+    height: 45px;
+    width: 45px;
+    text-align: center;
+}
+
+#menu span{
+    position: absolute;
+    width: 30px;
+    height: 3px;
+    display: block;
+    background-color: #000000;
+    transform-origin: left;
+    transition: all 0.1s ease-in-out;
+}
+
+#menu span:nth-child(1){
+top: 15px;
+right: 0px;
+}
+
+#menu span:nth-child(2){
+    bottom: 15px;
+    left: 0px;
+}
+
+#menu.open span:nth-child(1){
+    transform: rotate(45deg);
+    left: 0px;
+}
+
+#menu.open span:nth-child(2){
+    transform: rotate(-45deg);
+}
+
+
+
+
