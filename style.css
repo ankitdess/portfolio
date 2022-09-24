@@ -1,6 +1,38 @@
 nav{
     height: 10vh;
+    position: relative;
 }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#navlinks{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin-top: 70px;
+    background-color: #ffffff;
+    display: none;
+    transition: all 0.1s ease-in-out;
+}
+
+nav ul{
+    list-style-type:none;
+    padding-left: 0px;
+    text-align: center;
+    margin-bottom: 0px;    
+}
+
+nav ul li{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
 #menu{
     position: relative;
     height: 45px;
@@ -37,6 +69,26 @@ right: 0px;
     transform: rotate(-45deg);
 }
 
+nav button.cta{
+    border: 1px dashed #22CD43;
+    padding: 6px 18px;
+    background-color: #ffffff;
+}
+nav button.cta a{
+    color: #1CB638;
+}
 
+img#ico{
+    padding-right: 5px;
+    
+}
 
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+#navlinks.visible{
+    display: block;
+}
 
