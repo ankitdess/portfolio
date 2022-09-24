@@ -1,22 +1,29 @@
+div.container{
+    padding: 0px 18px;
+}
+
 nav{
     height: 10vh;
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #d4d4d4;
 }
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins';
 }
 
 #navlinks{
     position: fixed;
-    top: 0;
+    top: -200px;
     left: 0;
     right: 0;
-    margin-top: 70px;
-    background-color: #ffffff;
-    display: none;
+    background-color: #ffa0a0;
     transition: all 0.1s ease-in-out;
 }
 
@@ -38,6 +45,7 @@ nav ul li{
     height: 45px;
     width: 45px;
     text-align: center;
+    z-index: 30;
 }
 
 #menu span{
@@ -63,6 +71,7 @@ right: 0px;
 #menu.open span:nth-child(1){
     transform: rotate(45deg);
     left: 0px;
+    top:5px
 }
 
 #menu.open span:nth-child(2){
@@ -71,16 +80,20 @@ right: 0px;
 
 nav button.cta{
     border: 1px dashed #22CD43;
-    padding: 6px 18px;
+    padding: 4px 10px;
     background-color: #ffffff;
 }
 nav button.cta a{
+    display: flex;
+    align-items: center;
     color: #1CB638;
+    justify-content: space-around;
+    font-size: 16px;
 }
 
 img#ico{
     padding-right: 5px;
-    
+    width: 30%;
 }
 
 a{
@@ -89,6 +102,5 @@ a{
 }
 
 #navlinks.visible{
-    display: block;
+   top: 0px;
 }
-
