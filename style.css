@@ -21,27 +21,29 @@ nav{
 
 #navlinks{
     position: fixed;
-    top: -250px;
-    left: 0;
-    right: 0;
-    background-color: #f9f9f9;
+    top: 0;
+    right: -360px;
+    bottom: 0;
+    background-color: #ffffff;
     transition: all 0.1s ease-in-out;
+
 }
+
 
 nav ul{
     list-style-type:none;
     padding-left: 0px;
     text-align: center;
-    margin-bottom: 0px;    
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;    
 }
 
-nav ul li{
-    padding: 20px 0px;
-}
 
 nav ul li:nth-child(1){
     padding-top: 60px;
-    font-weight: 700;
 }
 
 
@@ -61,6 +63,7 @@ nav ul li:nth-child(1){
     background-color: #400D51;
     transform-origin: left;
     transition: all 0.1s ease-in-out;
+    border-radius: 50px;
 }
 
 #menu span:nth-child(1){
@@ -97,8 +100,22 @@ nav button.cta a{
     padding: 4px 2px;
 }
 
+nav button.nv{
+margin: 0 auto;
+}
+
+nav button.nv a{
+padding: 8px 80px;
+font-size: 20px;
+}
+
+
 img#ico{
     width: 25%;
+}
+
+nav ul li a{
+    font-size: 40px;
 }
 
 a{
@@ -107,9 +124,19 @@ a{
 }
 
 #navlinks.visible{
-   top: 0px;
+   left: 0;
+   right: 0;
 }
 
 img#logo{
     display: block;
+}
+
+#mail{
+    font-size: 16px;
+    color: #22CD43;
+}
+
+#top-nav{
+    display: none;
 }
