@@ -4,7 +4,9 @@
 
 nav{
     height: 12vh;
-    position: relative;
+    width: 100%;
+    background-color: #ffffff;
+    position: fixed;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -144,7 +146,7 @@ img#logo{
 div.container{
     width: 100%;
     background-color: #f9f9f9;
-    padding:0px 12px;
+    padding:100px 12px 0px 12px;
 }
 
 div.heading{
@@ -171,7 +173,7 @@ div.image{
 
 div.intro{
     text-align: center;
-    padding: 50px 0px;
+    padding: 50px 0px 10px 0px;
 }
 
 div.wave{
@@ -179,17 +181,17 @@ div.wave{
     text-align: center;
 }
 
-div.wave img:nth-child(1){
-padding-bottom: 5px;
-margin: 0 auto;
-}
 
 #blue{
     font-family: 'DM Serif Display';
     color: #7448D1;
 }
 
-#hand:hover{
+#hand{
+    font-size: 40px;
+}
+
+#trigger:hover #hand{
     animation: shakes 2.5s ;
     transform-origin: 70% 70%;
 }
