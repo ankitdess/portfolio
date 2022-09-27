@@ -115,7 +115,7 @@ img#ico{
 }
 
 nav ul li a{
-    font-size: 40px;
+    font-size: 30px;
 }
 
 a{
@@ -139,4 +139,69 @@ img#logo{
 
 #top-nav{
     display: none;
+}
+
+div.container{
+    width: 100%;
+    background-color: #f9f9f9;
+    padding:0px 12px;
+}
+
+div.heading{
+    max-width: 100%;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+    -webkit-user-drag: none;
+}
+
+div.image{
+    padding: 30px 100px;
+}
+
+#headtxt{
+    text-align: center;
+    font-family: 'DM Serif Display';
+    width: 90%;
+    margin: 0 auto;
+    font-size: 30px;
+}
+
+div.intro{
+    text-align: center;
+    padding: 50px 0px;
+}
+
+div.wave{
+    display: inline-block;
+    text-align: center;
+}
+
+div.wave img:nth-child(1){
+padding-bottom: 5px;
+margin: 0 auto;
+}
+
+#blue{
+    font-family: 'DM Serif Display';
+    color: #7448D1;
+}
+
+#hand:hover{
+    animation: shakes 2.5s ;
+    transform-origin: 70% 70%;
+}
+
+@keyframes shakes{
+
+    0% { transform: rotate( 0.0deg) }
+   10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
+   20% { transform: rotate(-8.0deg) }
+   30% { transform: rotate(14.0deg) }
+   40% { transform: rotate(-4.0deg) }
+   50% { transform: rotate(10.0deg) }
+   60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
+  100% { transform: rotate( 0.0deg) }
 }
