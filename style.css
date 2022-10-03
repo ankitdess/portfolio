@@ -1,5 +1,8 @@
 
-
+html {
+    scroll-behavior: smooth;
+  }
+  
 .fl{display: flex;justify-content: space-around;}
 
 .fa-square-arrow-up-right{
@@ -404,6 +407,19 @@ div.social ul li{
     display: none;
 }
 
+
+.scrolldown nav{
+    transform: translate3d(0,-100%,0);
+    transition: all 0.3s ease-in-out;
+}
+
+.scrollup nav{
+    transition: all 0.2s ease-out;
+}
+
+.fa-solid{
+    padding-left: 5px;
+}
 
 /*Media queries*/
 
