@@ -2,6 +2,8 @@
 
 .fl{display: flex;justify-content: space-around;}
 
+/*Mobile Navigation*/
+
 nav{
     height: 12vh;
     width: 100%;
@@ -19,6 +21,7 @@ nav{
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins';
+    list-style-type: none;
 }
 
 #navlinks{
@@ -28,11 +31,11 @@ nav{
     bottom: 0;
     background-color: #ffffff;
     transition: all 0.1s ease-in-out;
-
+    padding-top: 60px;
 }
 
 
-nav ul{
+#navlinks ul{
     list-style-type:none;
     padding-left: 0px;
     text-align: center;
@@ -41,11 +44,6 @@ nav ul{
     flex-direction: column;
     justify-content: space-around;
     height: 100%;    
-}
-
-
-nav ul li:nth-child(1){
-    padding-top: 60px;
 }
 
 
@@ -88,12 +86,13 @@ right: 0px;
     transform: rotate(-45deg);
 }
 
-nav button.cta{
+#navlinks button.cta{
     border: 1px dashed #22CD43;
     background-color: #ffffff;
     margin-right: 30px;
+    margin: 0 auto;
 }
-nav button.cta a{
+#navlinks button.cta a{
     display: flex;
     align-items: center;
     color: #1CB638;
@@ -102,11 +101,8 @@ nav button.cta a{
     padding: 4px 2px;
 }
 
-nav button.nv{
-margin: 0 auto;
-}
 
-nav button.nv a{
+#navlinks button.cta a{
 padding: 8px 80px;
 font-size: 20px;
 }
@@ -116,7 +112,7 @@ img#ico{
     width: 25%;
 }
 
-nav ul li a{
+#navlinks ul li a{
     font-size: 30px;
 }
 
@@ -135,13 +131,27 @@ img#logo{
 }
 
 #mail{
-    font-size: 16px;
+    font-size: 16px !important;
     color: #22CD43;
 }
 
-#top-nav{
-    display: none;
+/* Mobile navigation ends*/
+
+
+/*Desktop Navigation starts*/
+
+div#desknav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
+
+div#desknav ul li a{
+padding: 8px 16px;
+display: block;
+}
+
+
 
 div.container{
     width: 100%;
@@ -151,34 +161,50 @@ div.container{
 
 div.heading{
     max-width: 100%;
+    /*new code*/
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 60px;
+    padding: 30px 0px;
 }
 
 img{
-    max-width: 100%;
+    max-width: 80%;
     display: block;
+    margin: 0 auto;
     -webkit-user-drag: none;
 }
 
 div.image{
-    padding: 30px 100px;
+    /*new code*/
+    justify-self: center;
+    align-self: center;
 }
 
 #headtxt{
     text-align: center;
     font-family: 'DM Serif Display';
-    width: 90%;
-    margin: 0 auto;
+    /*width: 90%;*/
+    /*margin: 0 auto;*/
     font-size: 30px;
+    /*new code*/
+    align-self: center;
+    justify-self: center;
 }
 
 div.intro{
+    justify-self: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
     text-align: center;
-    padding: 50px 0px 10px 0px;
+    justify-content: center;
 }
 
 div.wave{
-    display: inline-block;
+    /*display: inline-block;*/
     text-align: center;
+    justify-self: center;
 }
 
 
@@ -213,14 +239,18 @@ div.wave{
     font-size: 26px;
 }
 
+
 .content ul{
 padding-top: 8px;
 list-style-type: none;
+text-align: center;
 }
 
 
 .content ul li:nth-child(2){
     padding-top: 5px;
+    /*New code*/
+    width: 300px;
     }
 
 a.btm{
@@ -237,7 +267,7 @@ a.btm{
 ul.microlink{
     padding-top: 20px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between /*around*/;
     list-style: none;
     font-weight: 300;
 }
@@ -264,7 +294,7 @@ ul.microlink{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 8px 64px;
+    padding: 8px 85px /*64px*/;
 }
 
 .hr{
@@ -355,7 +385,7 @@ div.line{
 }
 
 div.chat a.m{
-    margin-top: 15px;
+    margin: 15px 0px;
     display: block;
 }
 
@@ -363,9 +393,112 @@ div.social ul{
     list-style-type: none;
     display: flex;
     justify-content: space-around;
-    padding-top: 30px;
+    padding: 30px 0px;
 }
 
 div.social ul li{
     font-size: 12px;
+}
+
+#desknav{
+    flex-grow: 1;
+    display: none;
+}
+
+
+/*Media queries*/
+
+@media(min-width:600px){
+
+    /*nav section*/
+
+    #menu{
+        display: none;
+    }
+
+    #desknav{
+        display: block;
+    }
+
+    /*Heading sections*/
+
+    div.container{
+        padding: 100px 100px 0px 100px;
+    }
+
+    div.heading{
+    grid-template-columns: 60% 40%;
+    }
+
+    div.image{
+    grid-row: span 2;
+    align-self: start;
+    }
+
+    #headtxt{
+    text-align:left;
+    font-size: 50px;
+    grid-row: 1;
+    justify-self: start;
+    }
+    
+    div.intro{
+        /*new code*/
+        text-align: unset;
+        align-self: start;
+        justify-self: start;
+        display: grid;
+        grid-template-columns: 30% 70%;
+        justify-content: unset;
+    }
+
+    div.wave{
+        /*display: inline-block;*/
+        grid-row: span 4;
+        align-self: start;
+        justify-self: start;
+    }
+
+    .me{
+        padding-top: unset;
+        font-size: 30px;
+    }
+
+
+.content ul{
+    padding-top: 8px;
+    list-style-type: none;
+    text-align: unset;
+    }
+
+    .btm-cta a{
+        padding:8px 64px /*64px*/
+    }
+
+    img{
+        max-width:100%;
+    }
+
+    .ui, .code{
+        height: 400px;
+    }
+
+    div.work{
+        padding:60px 0px;
+    }
+
+    p.title{
+        font-size: 40px;
+    }
+    div.work p:nth-child(2){
+        font-size: 18px;
+    }
+
+    .ft-cta, div.chat a.m{
+        margin:30px 0px;
+    }
+
+    div.social ul{
+        padding: 60px 0px;
+    }
 }
