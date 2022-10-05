@@ -182,6 +182,7 @@ div.image{
     /*new code*/
     justify-self: center;
     align-self: center;
+    display: none;
 }
 
 #headtxt{
@@ -529,5 +530,10 @@ div.social ul li{
 
     div.social ul li{
         font-size: 18px;
+    }
+
+
+    div.image{
+        display: block;
     }
 }
