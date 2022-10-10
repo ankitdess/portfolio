@@ -3,6 +3,11 @@ $('#menu').click(function(){
 		$('#navlinks').toggleClass('visible');
 	});
 
+$('#mob').click(function(){
+	$('#menu').removeClass("open");
+	$('#navlinks').removeClass("visible");
+})
+
 const body=document.body;
 let lastscroll=0;
 
