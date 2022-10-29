@@ -331,7 +331,7 @@ div.work{
 .ui a,.code a{color: #ffffff;}
 
 a.overlay{
-    background-color:rgb(0, 0, 0,0.5);
+    background-color:rgb(0, 0, 0,0.8);
     width: 100%;
     height: 100%;
     display: block;
@@ -339,6 +339,7 @@ a.overlay{
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 40px;
 }
 
 p.title{
@@ -421,6 +422,7 @@ div.social ul li{
 .fa-solid{
     padding-left: 5px;
 }
+
 
 /*Media queries*/
 
