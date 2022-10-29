@@ -425,6 +425,18 @@ div.social ul li{
 }
 
 
+.social ul li{
+display: flex;
+align-items: center;
+justify-content: space-between;
+flex-direction: column;
+}
+
+.social ul li i{
+padding: 0;
+font-size: 20px;
+}
+
 /*Media queries*/
 
 @media(min-width:600px){
@@ -438,6 +450,7 @@ div.social ul li{
     #desknav{
         display: block;
     }
+
 
     /*Heading sections*/
 
@@ -538,5 +551,9 @@ div.social ul li{
 
     div.image{
         display: block;
+    }
+
+    .social ul li i{
+        font-size: 30px;
     }
 }
