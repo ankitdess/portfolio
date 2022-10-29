@@ -339,7 +339,8 @@ a.overlay{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 28px;
+    font-size: 20px;
+    font-weight: 400;
 }
 
 p.title{
