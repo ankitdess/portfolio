@@ -1,17 +1,27 @@
 $('#menu').click(function(){
 		$(this).toggleClass('open');
 		$('#navlinks').toggleClass('visible');
-	});
+});
 
 $('#mob').click(function(){
 	$('#menu').removeClass("open");
 	$('#navlinks').removeClass("visible");
 })
 
+/*Loading animation texts*/
 var text = ["Get set Go..", "This Shouldn't take much time", "Hang on few sec.."];
 var counter = 0;
 var elem = document.getElementById("changeText");
 var inst = setInterval(change, 3000);
+
+/*Change text*/
+function change() {
+	elem.innerHTML = text[counter];
+	counter++;
+	if (counter >= text.length) {
+	  counter = 0;
+	}
+  }
 
 /*Loading animation*/
 function loader(){
@@ -31,7 +41,7 @@ function loader(){
   }
 
   
-
+/*Function to auto hide navigation bar*/
 const body=document.body;
 let lastscroll=0;
 
