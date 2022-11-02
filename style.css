@@ -432,6 +432,10 @@ ul.microlink{
     font-weight: 300;
 }
 
+ul.microlink li a:active{
+    color: #7448D1;
+}
+
 .fa-check{
     color: #128B35;
 }
