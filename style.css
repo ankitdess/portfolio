@@ -471,11 +471,11 @@ div.work{
 }
 
 .ui{
-    background-image: url('./ui.png');
+    background-color: #E25454;
 }
 
 .code{
-    background-image: url('./code.png');
+    background-color: #E29854;
 }
 
 .ui,.code{
@@ -672,8 +672,8 @@ padding-bottom: 5px;
     }
 
     .ui, .code{
-        height: 300px;
-        margin-top:60px
+        margin-top:60px;
+        height: 500px;
     }
 
     div.work{
