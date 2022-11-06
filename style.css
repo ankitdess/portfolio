@@ -506,10 +506,6 @@ p.title{
     padding-bottom: 8px;
 }
 
-div.work p:nth-child(2){
-    font-size: 14px;
-    font-weight: 300;
-}
 
 div.chat{
     text-align: center;
@@ -593,6 +589,40 @@ flex-direction: column;
 padding: 0;
 font-size: 20px;
 padding-bottom: 5px;
+}
+
+div.txt{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+div.txt h1{
+    padding-top: 5px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+p.sub-txt{
+    font-size: 18px;
+    padding: 8px 0px;
+    font-weight: 300;
+}
+
+div.work img{
+display: block;
+}
+
+div.txt button{
+    width: 80%;
+    height: 50px;
+    font-size: 20px;
+    background-color: #ffffff;
+    border: 2px solid #000000;
+}
+
+div.txt button a{
+    display: block;
 }
 
 
@@ -683,9 +713,6 @@ padding-bottom: 5px;
     p.title{
         font-size: 40px;
     }
-    div.work p:nth-child(2){
-        font-size: 18px;
-    }
 
     .ft-cta, div.chat a.m{
         margin:20px 0px;
@@ -714,5 +741,19 @@ padding-bottom: 5px;
 
     .social ul li i{
         font-size: 30px;
+    }
+
+    div.txt h1{
+        font-size: 30px;
+    }
+
+    p.sub-txt{
+        font-size: 24px;
+        padding: 12px 0px;
+    }
+
+    div.txt button{
+        width: 40%;
+        height: 60px;
     }
 }
