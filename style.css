@@ -605,7 +605,7 @@ div.txt h1{
 
 p.sub-txt{
     font-size: 18px;
-    padding: 8px 0px;
+    padding: 4px 0px 16px 0px;
     font-weight: 300;
 }
 
@@ -615,8 +615,8 @@ display: block;
 
 div.txt button{
     width: 80%;
-    height: 50px;
-    font-size: 20px;
+    height: 45px;
+    font-size: 16px;
     background-color: #ffffff;
     border: 2px solid #000000;
 }
@@ -749,11 +749,10 @@ div.txt button a{
 
     p.sub-txt{
         font-size: 24px;
-        padding: 12px 0px;
     }
 
     div.txt button{
-        width: 40%;
-        height: 60px;
+        width: 30%;
+        height: 50px;
     }
 }
