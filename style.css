@@ -327,7 +327,7 @@ div.heading{
     padding: 30px 0px;
 }
 
-img{
+div.work img{
     max-width: 80%;
     display: block;
     margin: 0 auto;
@@ -554,10 +554,6 @@ div.social ul{
     padding: 30px 0px;
 }
 
-div.social ul li{
-    font-size: 12px;
-}
-
 #desknav{
     flex-grow: 1;
     display: none;
@@ -578,11 +574,12 @@ div.social ul li{
 }
 
 
-.social ul li{
+.social ul li a{
 display: flex;
 align-items: center;
 justify-content: space-between;
 flex-direction: column;
+font-size: 12px;
 }
 
 .social ul li i{
@@ -609,9 +606,7 @@ p.sub-txt{
     font-weight: 300;
 }
 
-div.work img{
-display: block;
-}
+
 
 div.txt button{
     width: 80%;
@@ -625,6 +620,49 @@ div.txt button a{
     display: block;
 }
 
+
+div.header{
+    height: 300px;
+    background-color: #81296D;
+    color: #ffffff;
+    padding-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+div.bodytext{
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+div.card{
+    height: 200px;
+    background-color: #FFD3AB;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-radius: 12px;
+}
+
+div.card a{
+    display: block; 
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.card2{
+    height: 100px;
+    background-color: #DCCCFF;
+    margin-bottom: 50px;
+}
 
 /*Media queries*/
 
@@ -730,7 +768,7 @@ div.txt button a{
         padding: 0px 100px;
     }
 
-    div.social ul li{
+    div.social ul li a{
         font-size: 18px;
     }
 
@@ -754,5 +792,9 @@ div.txt button a{
     div.txt button{
         width: 30%;
         height: 50px;
+    }
+
+    div.bodytext{
+        width: 50%;
     }
 }
