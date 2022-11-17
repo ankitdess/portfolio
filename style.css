@@ -634,17 +634,20 @@ div.header{
     flex-direction: column;
 }
 
+div.padman{
+    padding: 0 30px;
+}
+
 div.bodytext{
     text-align: center;
     width: 100%;
     margin: 0 auto;
+    padding-bottom: 50px;
 }
 
 div.card{
     height: 200px;
     background-color: #FFD3AB;
-    width: 80%;
-    margin: 0 auto;
     margin-top: 30px;
     border-radius: 12px;
 }
