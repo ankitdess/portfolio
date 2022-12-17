@@ -430,6 +430,7 @@ ul.microlink{
     justify-content: space-between /*around*/;
     list-style: none;
     font-weight: 300;
+    font-size: 18px;
 }
 
 ul.microlink li a:active{
@@ -735,7 +736,8 @@ div.card2{
     }
 
     .btm-cta a{
-        padding:8px 64px /*64px*/
+        padding:8px 64px; /*64px*/
+        font-size: 20px;
     }
 
     img{
@@ -799,5 +801,9 @@ div.card2{
 
     div.bodytext{
         width: 50%;
+    }
+
+    div.content ul li{
+        font-size: 20px;
     }
 }
