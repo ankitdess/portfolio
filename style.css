@@ -275,8 +275,8 @@ img#ico{
     width: 25%;
 }
 
-#navlinks ul li a{
-    font-size: 30px;
+#desknav ul li a, #navlinks ul li a{
+    font-size: 22px;
 }
 
 a{
@@ -294,7 +294,7 @@ img#logo{
 }
 
 #mail{
-    font-size: 16px !important;
+    font-size: 18px !important;
     color: #22CD43;
 }
 
@@ -596,7 +596,7 @@ div.txt{
 }
 
 div.txt h1{
-    padding-top: 5px;
+    padding-top: 10px;
     font-size: 20px;
     font-weight: 600;
 }
@@ -612,7 +612,7 @@ p.sub-txt{
 div.txt button{
     width: 80%;
     height: 45px;
-    font-size: 16px;
+    font-size: 20px;
     background-color: #ffffff;
     border: 2px solid #000000;
 }
@@ -791,7 +791,11 @@ div.card2{
     }
 
     p.sub-txt{
-        font-size: 24px;
+        font-size: 20px;
+    }
+
+    p.work-txt{
+        font-size: 25px;
     }
 
     div.txt button{
