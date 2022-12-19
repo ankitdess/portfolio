@@ -728,6 +728,10 @@ div.card2{
         font-size: 30px;
     }
 
+    p.sub{
+        width: 400px;
+    }
+
 
 .content ul{
     padding-top: 8px;
