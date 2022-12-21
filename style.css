@@ -328,7 +328,7 @@ div.heading{
 }
 
 div.work img{
-    max-width: 80%;
+    max-width: 70%;
     display: block;
     margin: 0 auto;
     -webkit-user-drag: none;
@@ -472,7 +472,7 @@ div.work{
 }
 
 .ui{
-    background-color: #E25454;
+    background-color: #82b2c1;
 }
 
 .code{
@@ -651,6 +651,10 @@ div.card{
     background-color: #FFD3AB;
     margin-top: 30px;
     border-radius: 12px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 div.card a{
@@ -663,9 +667,12 @@ div.card a{
 }
 
 div.card2{
-    height: 100px;
     background-color: #DCCCFF;
     margin-bottom: 50px;
+}
+
+.imgg{
+    max-width: 100px;
 }
 
 /*Media queries*/
