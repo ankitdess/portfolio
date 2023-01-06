@@ -658,6 +658,7 @@ div.infoo{
 
 div.details p:nth-child(1){
     font-size: 12px;
+    padding-bottom: 4px;
 }
 
 div.subhead{
