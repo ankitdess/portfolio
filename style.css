@@ -631,6 +631,9 @@ div.header{
     max-width: 100%;
     padding: 100px 0px 30px 0px;
 }
+div.headernew{
+    background-color: #ffecda;
+}
 
 div.preview{
     text-align: center;
