@@ -428,7 +428,7 @@ ul.microlink{
     display: flex;
     justify-content: space-between /*around*/;
     list-style: none;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 18px;
 }
 
