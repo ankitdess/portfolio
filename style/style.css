@@ -787,8 +787,6 @@ div.nxt a{
         text-align: unset;
         align-self: start;
         justify-self: start;
-        display: grid;
-        grid-template-columns: 30% 70%;
         justify-content: unset;
     }
 
@@ -797,6 +795,8 @@ div.nxt a{
         grid-row: span 4;
         align-self: start;
         justify-self: start;
+        text-align: left;
+        padding-bottom: 20px;
     }
 
     .me{
