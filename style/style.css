@@ -457,8 +457,13 @@ ul.microlink li a:active{
     background-color: #26409d;
     color: #ffffff;
     border: none;
-    margin-top: 20px;
     border-radius: 10px;
+    width: 100%;
+}
+
+.sec-btn{
+    background-color: #ffffff;
+    border: 2px solid #000000;
 }
 
 .btm-cta a{
@@ -468,6 +473,10 @@ ul.microlink li a:active{
     justify-content: space-around;
     align-items: center;
     padding: 12px 85px /*64px*/;
+}
+
+.sec-btn a{
+    color: #000000;
 }
 
 .hr{
@@ -757,6 +766,15 @@ p.sub i{
     padding-right: 5px;
 }
 
+div.btm-cnt{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0px 10px;
+    gap: 10px;
+}
+
 /*Style for Desktop greater than 600px*/
 /*I am designing mobile first so this style will apply screen > 600px*/
 
@@ -996,5 +1014,9 @@ p.sub i{
 
     ul.microlink{
         font-size: 20px;
+    }
+
+    div.btm-cnt{
+        flex-direction: row;
     }
 }
