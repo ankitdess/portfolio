@@ -480,11 +480,11 @@ div.work{
 }
 
 .ui{
-    background-color: #82b2c1;
+    background-color: #09556d;
 }
 
 .code{
-    background-color: #E29854;
+    background-color: #b95f0b;
 }
 
 .ui,.code{
@@ -750,6 +750,7 @@ span.web-dev{
     border-radius:50px;
     font-size: 14px;
     color: #652287;
+    font-weight: bold;
 }
 
 p.sub i{
@@ -821,7 +822,7 @@ p.sub i{
     }
 
     p.sub{
-        width: 400px;
+        width: 100%;
     }
 
 
