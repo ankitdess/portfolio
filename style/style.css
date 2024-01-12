@@ -433,15 +433,12 @@ a.btm{
 
 ul.microlink{
     padding-top: 20px;
-    display: flex;
-    justify-content: space-between /*around*/;
     list-style: none;
     font-weight: 400;
-    font-size: 18px;
 }
 
 
-ul.microlink li a:active{
+ul.microlink li a:hover{
     color: #7448D1;
 }
 
