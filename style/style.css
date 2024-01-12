@@ -868,8 +868,10 @@ p.sub i{
     }
 
     li.cta-desk{
-        background-color: #128B35;
-        padding: 5px 10px;
+        background-color: #4681f4;
+        color: #ffffff;
+        padding: 8px 12px;
+        border-radius: 8px;
         margin: 15px 0px;
     }
 
