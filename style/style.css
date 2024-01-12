@@ -365,9 +365,7 @@ div.intro{
 }
 
 div.wave{
-    /*display: inline-block;*/
-    text-align: center;
-    justify-self: center;
+    float: left;
 }
 
 
