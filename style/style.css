@@ -817,6 +817,10 @@ p.sub i{
         justify-content: unset;
     }
 
+    div.wave{
+        align-self: center;
+    }
+
     div.wave p{
         float: left;
     }
