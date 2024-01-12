@@ -428,6 +428,7 @@ a.btm{
  margin: 0 auto;
  font-size: 18px;
  margin-top: 30px;
+
  
 }
 
@@ -435,6 +436,7 @@ ul.microlink{
     padding-top: 20px;
     list-style: none;
     font-weight: 400;
+    float: right;
 }
 
 
