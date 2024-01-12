@@ -766,14 +766,6 @@ p.sub i{
     padding-right: 5px;
 }
 
-div.btm-cnt{
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    background-color: #128B35;
-    gap: 10px;
-}
 
 /*Style for Desktop greater than 600px*/
 /*I am designing mobile first so this style will apply screen > 600px*/
@@ -1014,9 +1006,5 @@ div.btm-cnt{
 
     ul.microlink{
         font-size: 20px;
-    }
-
-    div.btm-cnt{
-        flex-direction: row;
     }
 }
