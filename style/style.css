@@ -771,6 +771,7 @@ div.btm-cnt{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background-color: #128B35;
     gap: 10px;
 }
 
