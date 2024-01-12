@@ -818,7 +818,7 @@ p.sub i{
     }
 
     div.wave{
-        
+        float: left;
     }
 
     .me{
