@@ -365,7 +365,7 @@ div.intro{
 }
 
 div.wave p{
-    float: right;
+    float: left;
 }
 
 
@@ -818,7 +818,7 @@ p.sub i{
     }
 
     div.wave p{
-        float: right;
+        float: left;
     }
 
     .me{
