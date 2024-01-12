@@ -869,6 +869,8 @@ p.sub i{
 
     li.cta-desk{
         background-color: #128B35;
+        padding: 12px 20px;
+        border-radius: 10px;
     }
 
     div.social ul{
