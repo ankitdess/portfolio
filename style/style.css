@@ -436,7 +436,10 @@ ul.microlink{
     padding-top: 20px;
     list-style: none;
     font-weight: 400;
-    float: left;
+}
+
+ul.microlink li{
+   float: left; 
 }
 
 
