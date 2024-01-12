@@ -441,6 +441,7 @@ ul.microlink{
 ul.microlink li{
    float: left; 
    padding-right: 10px;
+   font-size: 20px;
 }
 
 
