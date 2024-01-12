@@ -41,7 +41,7 @@ function loader(){
   }
 
   
-/*Function to auto hide navigation bar*/
+/*Function to auto hide navigation bar
 const body=document.body;
 let lastscroll=0;
 
@@ -65,3 +65,4 @@ window.addEventListener('scroll',()=>{
 
 	lastscroll=currentscroll;
 })
+*/
