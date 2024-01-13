@@ -405,7 +405,6 @@ div.wave p{
 .content ul{
 padding-top: 8px;
 list-style-type: none;
-text-align: center;
 }
 
 div.content ul li{
@@ -839,7 +838,6 @@ p.sub i{
 .content ul{
     padding-top: 8px;
     list-style-type: none;
-    text-align: unset;
     }
 
     .btm-cta a{
