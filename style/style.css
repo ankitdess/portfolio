@@ -882,13 +882,15 @@ p.sub i{
         border: 1px solid #9075CB ;
         border-radius: 9px;
         margin: 15px 0px;
+        width: 220px;
+        text-align: center;
     }
 
     li.cta-desk a{
         color: #ffffff !important;
         font-size: 18px !important;
         font-weight: 500 !important;
-        padding: 10px 14px;
+        padding: 10px 0px;
     }
 
 
