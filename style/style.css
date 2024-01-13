@@ -841,6 +841,7 @@ p.sub i{
 
     p.sub{
         font-family: 'Inter', sans-serif;
+        line-height: 1.2;
     }
 
 
