@@ -840,9 +840,7 @@ p.sub i{
     }
 
     p.sub{
-        max-width: 400px;
         font-family: 'Inter', sans-serif;
-        line-height:1.5;
     }
 
 
