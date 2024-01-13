@@ -2,6 +2,7 @@ body#home{
     position: relative;
     overflow: hidden;
     background-color: #f9f9f9;
+    opacity: 0;
 }
 
 li.micro{
@@ -770,6 +771,11 @@ p.sub i{
 /*I am designing mobile first so this style will apply screen > 600px*/
 
 @media(min-width:600px){
+
+
+    body{
+        opacity: 1;
+    }
 
     /*nav section*/
 
